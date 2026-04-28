@@ -1,12 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>nexuptech</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NexUpTech | Secure SaaS Landing Pages for SMEs & Creators</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>NEXUP</h1>
-    <p>Nexup, A new Ai start up for IT & Cybersecurity consultancy!</p>
+  <header>
+    <div class="container nav">
+      <div class="logo">Nex<span>Up</span>Tech</div>
+      <a href="#contact" class="cta-btn">Get Quote</a>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h1>Secure SaaS Landing Pages <span>Built for Growth</span></h1>
+      <p>We’re an IT & cybersecurity consultancy helping SMEs, artists, and entrepreneurs launch fast, secure landing pages that convert. No tech headaches.</p>
+      <div class="hero-btns">
+        <a href="#pricing" class="cta-btn">View Packages</a>
+        <a href="#contact" class="btn-secondary">Free Security Audit</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="features" id="features">
+    <div class="container">
+      <h2 class="section-title">Why NexUpTech?</h2>
+      <div class="grid">
+        <div class="card">
+          <div class="icon">🛡️</div>
+          <h3>Security-First Build</h3>
+          <p>Every page is hardened against common attacks. SSL, headers, and monitoring included. We’re cyber security experts first.</p>
+        </div>
+        <div class="card">
+          <div class="icon">⚡</div>
+          <h3>Launch in 72 Hours</h3>
+          <p>AI-assisted copy + design templates mean you go live in days, not months. Perfect for campaigns and product launches.</p>
+        </div>
+        <div class="card">
+          <div class="icon">🎯</div>
+          <h3>Built to Convert</h3>
+          <p>Landing pages for SMEs, artists, enterprises. Clear CTAs, fast load times, mobile-first. Designed to turn visitors into clients.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="pricing" id="pricing">
+    <div class="container">
+      <h2 class="section-title">Simple Pricing</h2>
+      <div class="grid">
+        <div class="price-card">
+          <h3>Starter</h3>
+          <div class="price">$199 <span>/one-time</span></div>
+          <ul class="price-features">
+            <li>✓ 1-page secure landing</li>
+            <li>✓ Mobile responsive</li>
+            <li>✓ Basic SEO setup</li>
+            <li>✓ SSL + Security headers</li>
+            <li>✓ 7-day support</li>
+          </ul>
+          <a href="#contact" class="btn-secondary">Choose Starter</a>
+        </div>
+        <div class="price-card popular">
+          <div class="popular-tag">Most Popular</div>
+          <h3>Business</h3>
+          <div class="price">$499 <span>/one-time</span></div>
+          <ul class="price-features">
+            <li>✓ 3-page SaaS site</li>
+            <li>✓ AI copywriting included</li>
+            <li>✓ Contact form + CRM hook</li>
+            <li>✓ Security audit report</li>
+            <li>✓ 30-day support</li>
+          </ul>
+          <a href="#contact" class="cta-btn">Choose Business</a>
+        </div>
+        <div class="price-card">
+          <h3>Enterprise</h3>
+          <div class="price">Custom</div>
+          <ul class="price-features">
+            <li>✓ Multi-page web apps</li>
+            <li>✓ API integrations</li>
+            <li>✓ Penetration testing</li>
+            <li>✓ Dedicated consultant</li>
+            <li>✓ 90-day support</li>
+          </ul>
+          <a href="#contact" class="btn-secondary">Contact Sales</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="container">
+      <h2>Get Your Secure Landing Page</h2>
+      <p>SME, artist, or enterprise — tell us what you’re launching. We’ll reply in 24hrs.</p>
+      <form class="form" id="contactForm">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="email" id="email" placeholder="Email Address" required>
+        <textarea id="message" rows="4" placeholder="What are you building? Ex: Landing page for my music studio" required></textarea>
+        <button type="submit" class="cta-btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>© 2026 NexUpTech. IT & Cybersecurity Consultancy based in Kampala, UG.</p>
+      <p>Built with security in mind.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
