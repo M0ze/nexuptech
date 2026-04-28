@@ -45,16 +45,13 @@ Scroll the live site to see 3 page styles we build:
 - **Business $499**: 3-page SaaS site + AI copy + 3 style options + security audit + 30-day support
 - **Enterprise Custom**: Web apps, APIs, pentesting, custom animations + 90-day support
 
-### Setup
-1. Clone repo: `git clone https://github.com/M0ze/nexuptech-.git`
-2. Edit `script.js` line 20: Replace `256XXXXXXXXX` with your WhatsApp number
-3. Push to `main` branch — GitHub Pages auto-deploys to `m0ze.github.io/nexuptech-/`
+
 
 ### Contact
 **NexUpTech** — IT & Cybersecurity Consultancy
 Kampala, Uganda
-WhatsApp: +256XXXXXXXXX
-Email: hello@nexuptech.com
+WhatsApp: +256764625700
+Email: mugaggamozes@gmail.com
 
 ### Roadmap
 - [x] Dark mode toggle with localStorage

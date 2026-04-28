@@ -21,7 +21,7 @@ document.getElementById('contactForm').addEventListener('submit', function(e) {
   const msg = document.getElementById('message').value;
   
   // CHANGE THIS: Replace 256XXXXXXXXX with your WhatsApp number
-  const whatsappNumber = '256XXXXXXXXX';
+  const whatsappNumber = '+256764625700';
   const whatsappText = `Hi NexUpTech! I'm ${name}. Project: ${msg}. Email: ${email}`;
   const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappText)}`;
   
